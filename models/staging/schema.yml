@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_clientes
+    description: "Base limpa dos clientes"
+    columns:
+      - name: id
+        description: "Identificador único"
+        tests:
+          - not_null
+          - unique
+
+      - name: estado
+        description: "Estado de residência"
+        tests:
+          - accepted_values:
+              values: ['SP', 'RJ', 'MG', 'PR', 'CE']

@@ -1,0 +1,6 @@
+id,nome,cidade,estado,ativo
+1,Bruno,São Paulo,SP,True
+2,Ana,Belo Horizonte,MG,True
+3,Carlos,Rio de Janeiro,RJ,False
+4,Luiza,Curitiba,PR,True
+5,Marcos,Fortaleza,CE,False
